@@ -1,0 +1,32 @@
+{
+  "name": "webpack-test-projects",
+  "version": "1.0.0",
+  "description": "In this is project, i am study use webpack in web development. I created project (in node.js),  installed webpack and  modules, and settings modules.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanKovalitskiy/Webpack-test-projects.git"
+  },
+  "author": "Roman Kovalitskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanKovalitskiy/Webpack-test-projects/issues"
+  },
+  "homepage": "https://github.com/RomanKovalitskiy/Webpack-test-projects#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "path": "^0.12.7",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
