@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url('/assets/fonts/OpenSans/OpenSans-Bold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/OpenSans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/OpenSans/OpenSans-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/assets/fonts/OpenSans/OpenSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url('/assets/fonts/OpenSans/OpenSans-Light.eot');
+  src: url('/assets/fonts/OpenSans/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/OpenSans/OpenSans-Light.woff') format('woff'),
+       url('/assets/fonts/OpenSans/OpenSans-Light.ttf')  format('truetype'),
+}

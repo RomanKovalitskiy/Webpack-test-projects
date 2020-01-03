@@ -1,7 +1,7 @@
 import './js/common.js'
-import './css/main.css'
-import './scss/main.scss'
-// import Vue from 'vue'
+import './assets/css/main.css'
+import './assets/scss/main.scss'
+
 window.Vue = require('vue')
 import store from './store'
 
