@@ -1,0 +1,31 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+
+  "extends": ["airbnb/base", "@vue/airbnb", "prettier/vue"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "htmlWhitespaceSensitivity": "ignore",
+        "singleQuote": true
+      }
+    ],
+    "no-console": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "no-shadow": [2, { "allow": ["state"] }],
+    "no-param-reassign": "off",
+    "consistent-return": "off",
+    "no-plusplus": "off",
+    "eol-last": "off",
+    "max-len": ["error", 150]
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  }
+}
